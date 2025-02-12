@@ -22,25 +22,20 @@ public static void main(String[] args) {
         s.setState("Neuer Post auf IG");
         Helper.output("---------------");
 
-        // ob1.setPushed(true); // Max aktiviert die Glocke!
-        // s.setState("Neuer Live-Stream!");
-        // Helper.output("---------------");
+        ob1.setPushed(true); // Max aktiviert die Glocke!
+        s.setState("Neuer Live-Stream!");
+        Helper.output("---------------");
 
-        // // FOMO? : Maxine abonniert ...
-        // ob3.subscribe();
-        // s.setState("Neuer Post über Solana");
-        // Helper.output("---------------");
+        // FOMO? : Maxine abonniert ...
+        ob3.subscribe();
+        s.setState("Neuer Post über Solana");
+        Helper.output("---------------");
 
-        // //  Maxine kündigt Ihr Abo wieder ...
-        // s.detatch(ob3);  
+        //  Maxine kündigt Ihr Abo wieder ...
+        s.detatch(ob3);  
 
-
-        // s.setState("Neuer Post über Polkadot");
-        // Helper.output("---------------");
-
-
-
-
+        s.setState("Neuer Post über Polkadot");
+        Helper.output("---------------");
 
 }
 
