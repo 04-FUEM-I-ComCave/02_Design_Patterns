@@ -33,6 +33,8 @@ public class Filiale
       coffee3 = new Milk(coffee3);
       coffee3 = new Milk(coffee3);
       Helper.output(coffee3.getDescription() + " $" + coffee3.cost());
+      Helper.output("-----------------------------------");
+
 
       Coffee coffee4 = new SignatureRoast();
       coffee4 = new Vanilla(coffee4);
